@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import MessageBouton from './MessageBouton';
+import FormulaireNom from './FormulaireNom';
+import CompteurEffet from './CompteurEffet';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <h2>Exercice 1 : Affichage dynamique</h2>
+      <MessageBouton />
+
+      <h2>Exercice 2 : Formulaire inscription</h2>
+      <FormulaireNom />
+
+      <h2>Exercice 3 : Compteur avec effet personnalisé</h2>
+      <CompteurEffet />
     </div>
   );
 }
